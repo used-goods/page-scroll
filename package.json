@@ -1,0 +1,31 @@
+{
+  "name": "@used-goods/page-scroll",
+  "version": "1.0.0",
+  "description": "A used React hook for listening in on the state of a page scroll",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/used-goods/page-scroll.git"
+  },
+  "author": "Tomasz Tunik <tomasztunik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/used-goods/page-scroll/issues"
+  },
+  "homepage": "https://github.com/used-goods/page-scroll#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  }
+}
